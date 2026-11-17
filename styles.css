@@ -1,8 +1,8 @@
 :root {
   color-scheme: dark;
-  --page-color: #10141b;
-  --panel-color: rgb(16 20 27 / 88%);
-  --text-color: #f3f5f7;
+  --page-color: #222d40;
+  --panel-color: #a79b92;
+  --text-color: #000000;
   --accent-color: #a8d7ff;
   --content-width: 70rem;
   --section-gap: clamp(3rem, 8vw, 7rem);
@@ -63,7 +63,7 @@ body::before {
 
 .site-banner {
   display: block;
-  width: 100%;
+  width: 50%;
   max-height: 24rem;
   object-fit: contain;
 }
@@ -80,7 +80,7 @@ body::before {
   padding: 0.55rem 0.8rem;
   border: 1px solid rgb(243 245 247 / 35%);
   border-radius: 999px;
-  color: var(--text-color);
+  color: var(--accent-color);
   text-align: center;
   text-decoration: none;
 }
@@ -89,6 +89,14 @@ body::before {
 .section-nav a:focus-visible {
   border-color: var(--accent-color);
   color: var(--accent-color);
+}
+
+.section-description {
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  line-height: 1.2;
+  text-align: center;
+  font-family: 'Inter', system-ui, sans-serif;
 }
 
 .portfolio-section {
@@ -125,7 +133,7 @@ body::before {
   object-fit: contain;
 }
 
-.video-frame {
+.media-frame {
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -135,12 +143,31 @@ body::before {
   background: #080a0e;
 }
 
-.video-frame iframe {
+.media-frame iframe {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+.favicon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.favicon_bigger {
+  width: 96px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.container {
+  display: flex;
+  gap: 15px; /* Adds space between the divs */
+  align-items: center; /* Vertically centers the divs */
+  justify-content: center; /* Horizontally centers the divs */
 }
 
 @media (max-width: 40rem) {

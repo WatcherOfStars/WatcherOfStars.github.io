@@ -11,41 +11,116 @@
     <a class="skip-link" href="#portfolio">Skip to portfolio</a>
 
     <header class="site-header">
-      <img class="site-banner" src="assets/banner.svg" alt="Portfolio banner">
+      <img class="site-banner" src="assets/nameplate.svg" alt="Portfolio banner">
+      <div class="container">
+        <a href="https://github.com/WatcherOfStars">
+        <img class="favicon" src="assets/github_logo.svg" alt="samp">
+        </a>
+        <a href="mailto:owencanderson23@gmail.com">
+          <img class="favicon" src="assets/mail.svg" alt="samp">
+        </a>
+        <a href="https://www.linkedin.com/in/owen-anderson-a26232344">
+          <img class="favicon" src="assets/linkedin.svg" alt="samp">
+        </a>
+        <a href="https://gaios-controls.com">
+          <img class="favicon" src="assets/GaiOS favicon resized.png" alt="samp">
+        </a>
+      </div>
+      
       <nav class="section-nav" aria-label="Portfolio sections">
-        <a href="#section-01">01</a>
-        <a href="#section-02">02</a>
-        <a href="#section-03">03</a>
+        <a href="#section-01">GAIOS</a>
+        <a href="#section-02">SOLARPV</a>
+        <a href="#section-03">AERAS</a>
+        <a href="#section-04">FIRST ROBOTICS</a>
+        <a href="#section-05">WESTINGHOUSE</a>
       </nav>
     </header>
 
     <main id="portfolio">
       <!-- Copy a section to add another project, and update its ID and asset paths. -->
       <section class="portfolio-section" id="section-01" aria-label="Portfolio section 01">
-        <div class="section-inner">
-          <img class="animated-header" src="assets/section-01-header.gif" alt="Section 01 animated header">
-          <img class="section-artwork" src="assets/section-01.svg" alt="Section 01 artwork">
-          <div class="video-frame">
-            <iframe
-              src="https://www.youtube-nocookie.com/embed/VIDEO_ID"
-              title="Section 01 video"
-              loading="lazy"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+        <div class="section-inner" style="position: relative;">
+          <img class="animated-header" src="assets/gaios_banner.svg" alt="Section 01 animated header" style="position: absolute; top: 20px; left: 50%; transform: translate(-50%, -50%); z-index: 2; width: 120%; max-width: none; height: auto;">
+          <p class="section-description" style="margin-bottom: 0;">
+            Personal project designing and implementing the circuity, firmware, control interface, plumbing, and grow towers for an open-source aeroponic farming system. Able to grow 200 heads of lettuce per month in a 2'x2' space at ~$500 cost per tower. Designed custom PCBs (solenoid drivers, control modules) in KiCAD. 3D printed housing boxes. Recorded data using Node-RED and MQTT running on a Google Cloud VM. 
+          </p>
+          <div class="container">
+            <a href="https://www.kicad.org/">
+            <img class= "favicon_bigger" src="assets/KiCad-Logo.svg.webp" alt="samp">
+            </a>
+            <a href="https://isocpp.org/">
+              <img class="favicon_bigger" src="assets/ISO_C++_Logo.svg.webp" alt="samp">
+            </a>
+            <a href="https://www.espressif.com/en/products/socs/esp32">
+              <img class="favicon_bigger" src="assets/espressif.png" alt="samp">
+            </a>
+            <a href="https://nodered.org/">
+              <img class="favicon_bigger" src="assets/nodered.png" alt="samp">
+            </a>
+            <a href="https://mqtt.org/">
+              <img class="favicon_bigger" src="assets/mqtt-logo.png" alt="samp">
+            </a>
           </div>
+          <div class="container">
+            <img class="media-frame" src="assets/sample_img.png" alt = "samp"></img>
+            <img class="media-frame" src="assets/sample_img.png" alt = "samp"></img>
+            <img class="media-frame" src="assets/sample_img.png" alt = "samp"></img>
         </div>
       </section>
 
       <section class="portfolio-section" id="section-02" aria-label="Portfolio section 02">
         <div class="section-inner">
-          <img class="animated-header" src="assets/section-02-header.gif" alt="Section 02 animated header">
-          <img class="section-artwork" src="assets/section-02.svg" alt="Section 02 artwork">
-          <div class="video-frame">
+          <img class="animated-header" src="assets/solarpv_banner.svg" alt="Section 02 animated header" style="position: absolute; top: 20px; left: 50%; transform: translate(-50%, -50%); z-index: 2; width: 120%; max-width: none; height: auto;">
+          <p class="section-description" style="margin-top: 4rem; margin-bottom: 0;">
+            2 year team project designing a sub-$100 solar charge controller for installation on homes in rural Senegal. I developed all the firmware including sensor drivers, battery management code, control/safety logic, web UI, and MQTT data reporting. In Summer 2026, I travelled with my team to Senegal and installed 3 systems. We then improved our design and shipped 10 more systems. Currently, we are working towards a polished open-source version.
+          </p>
+          <div class="container">
+            <a href="https://platformio.org/">
+            <img class= "favicon_bigger" src="assets/platformio-logo.17fdc3bc.png" alt="samp">
+            </a>
+            <a href="https://isocpp.org/">
+              <img class="favicon_bigger" src="assets/ISO_C++_Logo.svg.webp" alt="samp">
+            </a>
+            <a href="https://www.espressif.com/en/products/socs/esp32">
+              <img class="favicon_bigger" src="assets/espressif.png" alt="samp">
+            </a>
+            <a href="https://nodered.org/">
+              <img class="favicon_bigger" src="assets/nodered.png" alt="samp">
+            </a>
+            <a href="https://mqtt.org/">
+              <img class="favicon_bigger" src="assets/mqtt-logo.png" alt="samp">
+            </a>
+          </div>
+          <div class="container">
+            <img class="media-frame" src="assets/sample_img.png" alt = "samp"></img>
+            <img class="media-frame" src="assets/sample_img.png" alt = "samp"></img>
+            <img class="media-frame" src="assets/sample_img.png" alt = "samp"></img>
+        </div>
+        </div>
+      </section>
+
+      <section class="portfolio-section" id="section-03" aria-label="Portfolio section 03">
+        <div class="section-inner">
+          <img class="animated-header" src="assets/aeras_banner.svg" alt="Section 03 animated header" style="position: absolute; top: 20px; left: 50%; transform: translate(-50%, -50%); z-index: 2; width: 120%; max-width: none; height: auto;">
+          <p class="section-description" style="margin-top: 4rem; margin-bottom: 0;">
+            High school apprenticeship gaining hands-on electrical engineering experience building, repairing, and troubleshooting commerical powerwashing and photogrammetry drones. I disassembled and repaired the electronic speed controllers in several DJI dones, built a drone from scratch using Cube Orange flight controller, and calibrated PIDs and navigation systems using Ardupilot and Mission Planner. Gained a lot of experience soldering/desoldering, debugging circuits, and working with embedded systems.
+          </p>
+          <div class="container">
+            <img class="media-frame" src="assets/sample_img.png" alt = "samp"></img>
+            <img class="media-frame" src="assets/sample_img.png" alt = "samp"></img>
+            <img class="media-frame" src="assets/sample_img.png" alt = "samp"></img>
+        </div>
+        </div>
+      </section>
+
+      <section class="portfolio-section" id="section-04" aria-label="Portfolio section 04">
+        <div class="section-inner">
+          <img class="animated-header" src="assets/first_banner.svg" alt="Section 04 animated header" style="position: absolute; top: 20px; left: 50%; transform: translate(-50%, -50%); z-index: 2; width: 120%; max-width: none; height: auto;">
+          <img class="section-artwork" src="assets/section-04.svg" alt="Section 04 artwork">
+          <div class="media-frame">
             <iframe
               src="https://www.youtube-nocookie.com/embed/VIDEO_ID"
-              title="Section 02 video"
+              title="Section 04 video"
               loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
@@ -55,14 +130,14 @@
         </div>
       </section>
 
-      <section class="portfolio-section" id="section-03" aria-label="Portfolio section 03">
+      <section class="portfolio-section" id="section-05" aria-label="Portfolio section 05">
         <div class="section-inner">
-          <img class="animated-header" src="assets/section-03-header.gif" alt="Section 03 animated header">
-          <img class="section-artwork" src="assets/section-03.svg" alt="Section 03 artwork">
-          <div class="video-frame">
+          <img class="animated-header" src="assets/westinghouse_banner.svg" alt="Section 05 animated header" style="position: absolute; top: 20px; left: 50%; transform: translate(-50%, -50%); z-index: 2; width: 120%; max-width: none; height: auto;">
+          <img class="section-artwork" src="assets/section-05.svg" alt="Section 05 artwork">
+          <div class="media-frame">
             <iframe
               src="https://www.youtube-nocookie.com/embed/VIDEO_ID"
-              title="Section 03 video"
+              title="Section 05 video"
               loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
