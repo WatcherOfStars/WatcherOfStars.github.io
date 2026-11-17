@@ -28,11 +28,11 @@
       </div>
       
       <nav class="section-nav" aria-label="Portfolio sections">
-        <a href="#section-01">GAIOS</a>
-        <a href="#section-02">SOLARPV</a>
-        <a href="#section-03">AERAS</a>
-        <a href="#section-04">FIRST ROBOTICS</a>
-        <a href="#section-05">WESTINGHOUSE</a>
+        <a href="#section-01">AG CONTROL SYSTEM</a>
+        <a href="#section-02">SOLAR CHARGE CONTROLLER</a>
+        <a href="#section-03">WESTINGHOUSE INTERNSHIP</a>
+        <a href="#section-04">ROBOTICS</a>
+        <a href="#section-05">DRONE APPRENTICESHIP</a>
       </nav>
     </header>
 
@@ -42,7 +42,12 @@
         <div class="section-inner" style="position: relative;">
           <img class="animated-header" src="assets/gaios_banner.svg" alt="Section 01 animated header" style="position: absolute; top: 20px; left: 50%; transform: translate(-50%, -50%); z-index: 2; width: 120%; max-width: none; height: auto;">
           <p class="section-description" style="margin-bottom: 0;">
-            Personal project designing and implementing the circuity, firmware, control interface, plumbing, and grow towers for an open-source aeroponic farming system. Able to grow 200 heads of lettuce per month in a 2'x2' space at ~$500 cost per tower. Designed custom PCBs (solenoid drivers, control modules) in KiCAD. 3D printed housing boxes. Recorded data using Node-RED and MQTT running on a Google Cloud VM. 
+            Personal project designing and implementing the circuity, firmware, control interface, plumbing, and grow towers for an open-source aeroponic farming system.
+            Implemented distributed control system framework using ESP-32 nodes and a Linux gateway using a raspberry pi.
+            Able to grow 200 heads of lettuce per month in a 2'x2' space at ~$500 cost per tower. 
+            Designed custom PCBs (solenoid drivers, control modules) in KiCAD. 
+            3D printed housing boxes. 
+            Recorded data using Node-RED and MQTT running on a Google Cloud VM. 
           </p>
           <div class="container">
             <a href="https://www.kicad.org/">
@@ -62,16 +67,16 @@
             </a>
           </div>
           <div class="container">
-            <img class="media-frame" src="assets/sample_img.png" alt = "samp"></img>
-            <img class="media-frame" src="assets/sample_img.png" alt = "samp"></img>
-            <img class="media-frame" src="assets/sample_img.png" alt = "samp"></img>
+            <img class="media-frame" src="assets/aquaponics_2.jpg" alt = "samp" style="object-fit: cover;">
+            <img class="media-frame" src="assets/aero_elec_p.jpg" alt = "samp" style="object-fit: cover;">
+            <img class="media-frame" src="assets/aero_elec_p_2.jpg" alt = "samp" style="object-fit: cover;">
         </div>
       </section>
 
       <section class="portfolio-section" id="section-02" aria-label="Portfolio section 02">
         <div class="section-inner">
           <img class="animated-header" src="assets/solarpv_banner.svg" alt="Section 02 animated header" style="position: absolute; top: 20px; left: 50%; transform: translate(-50%, -50%); z-index: 2; width: 120%; max-width: none; height: auto;">
-          <p class="section-description" style="margin-top: 4rem; margin-bottom: 0;">
+          <p class="section-description" style="margin-top: 6rem; margin-bottom: 0;">
             2 year team project designing a sub-$100 solar charge controller for installation on homes in rural Senegal. I developed all the firmware including sensor drivers, battery management code, control/safety logic, web UI, and MQTT data reporting. In Summer 2026, I travelled with my team to Senegal and installed 3 systems. We then improved our design and shipped 10 more systems. Currently, we are working towards a polished open-source version.
           </p>
           <div class="container">
@@ -92,49 +97,44 @@
             </a>
           </div>
           <div class="container">
-            <img class="media-frame" src="assets/sample_img.png" alt = "samp"></img>
-            <img class="media-frame" src="assets/sample_img.png" alt = "samp"></img>
-            <img class="media-frame" src="assets/sample_img.png" alt = "samp"></img>
+            <img class="media-frame" src="assets/solarpv_p_1.jpg" alt = "samp" style="object-fit: cover;">
+            <img class="media-frame" src="assets/solarpv_install.jpg" alt = "samp" style="object-fit: cover;">
+            <img class="media-frame" src="assets/solarpv_install_3.jpg" alt = "samp" style="object-fit: cover;">
         </div>
         </div>
       </section>
 
       <section class="portfolio-section" id="section-03" aria-label="Portfolio section 03">
         <div class="section-inner">
-          <img class="animated-header" src="assets/aeras_banner.svg" alt="Section 03 animated header" style="position: absolute; top: 20px; left: 50%; transform: translate(-50%, -50%); z-index: 2; width: 120%; max-width: none; height: auto;">
-          <p class="section-description" style="margin-top: 4rem; margin-bottom: 0;">
-            High school apprenticeship gaining hands-on electrical engineering experience building, repairing, and troubleshooting commerical powerwashing and photogrammetry drones. I disassembled and repaired the electronic speed controllers in several DJI dones, built a drone from scratch using Cube Orange flight controller, and calibrated PIDs and navigation systems using Ardupilot and Mission Planner. Gained a lot of experience soldering/desoldering, debugging circuits, and working with embedded systems.
-          </p>
-          <div class="container">
-            <img class="media-frame" src="assets/sample_img.png" alt = "samp"></img>
-            <img class="media-frame" src="assets/sample_img.png" alt = "samp"></img>
-            <img class="media-frame" src="assets/sample_img.png" alt = "samp"></img>
-        </div>
-        </div>
-      </section>
-
-      <section class="portfolio-section" id="section-04" aria-label="Portfolio section 04">
-        <div class="section-inner">
-          <img class="animated-header" src="assets/first_banner.svg" alt="Section 04 animated header" style="position: absolute; top: 20px; left: 50%; transform: translate(-50%, -50%); z-index: 2; width: 120%; max-width: none; height: auto;">
-          <img class="section-artwork" src="assets/section-04.svg" alt="Section 04 artwork">
-          <div class="media-frame">
-            <iframe
-              src="https://www.youtube-nocookie.com/embed/VIDEO_ID"
-              title="Section 04 video"
-              loading="lazy"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
-      </section>
-
-      <section class="portfolio-section" id="section-05" aria-label="Portfolio section 05">
-        <div class="section-inner">
           <img class="animated-header" src="assets/westinghouse_banner.svg" alt="Section 05 animated header" style="position: absolute; top: 20px; left: 50%; transform: translate(-50%, -50%); z-index: 2; width: 120%; max-width: none; height: auto;">
-          <img class="section-artwork" src="assets/section-05.svg" alt="Section 05 artwork">
-          <div class="media-frame">
+          <p class="section-description" style="margin-top: 6rem; margin-bottom: 0;">
+            College summer internship working as a computer-aided engineering intern for Westinghouse Electric Company.
+            Built nuclear power plant outage training materials (3D prints and animated visualizations) and Navisworks construction timelines from procedure documents, used by outage workers and construction engineers to reduce outage times and improve construction timelines.
+            Automated CAD file verification and uploading in the Plant Design System to  AVEVA E3D migration using Python, cutting hundreds of hours of manual work. Also wrote user guides and documentation for the team.
+          </p>        
+          <div class="container">
+            <a href="https://www.aveva.com/en/products/e3d-design/">
+            <img class= "favicon_bigger" src="assets/E3D_logo.png" alt="samp">
+            </a>
+            <a href="https://www.autodesk.com/products/navisworks/3d-viewers">
+              <img class="favicon_bigger" src="assets/navisworks-manage-full-product-icon.svg" alt="samp">
+            </a>
+            <a href="https://www.python.org/">
+              <img class="favicon_bigger" src="assets/Python-logo-notext.svg.webp" alt="samp">
+            </a>
+            <a href="https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/">
+              <img class="favicon_bigger" src="assets/ifc_logo.svg" alt="samp">
+            </a>
+            <a href="https://www.buildingsmart.org/standards/bsi-standards/information-delivery-specification-ids/">
+              <img class="favicon_bigger" src="assets/ids_logo.svg" alt="samp">
+            </a>
+          </div>  
+          <div class="container">
+            <img class="media-frame" src="assets/westinghouse_1.jpeg" alt = "samp" style="object-fit: cover;">
+            <img class="media-frame" src="assets/westinghouse_2.jpeg" alt = "samp" style="object-fit: cover;">
+            <img class="media-frame" src="assets/westinghouse_3.jpg" alt = "samp" style="object-fit: cover;">
+          </div>
+          <!-- <div class="media-frame">
             <iframe
               src="https://www.youtube-nocookie.com/embed/VIDEO_ID"
               title="Section 05 video"
@@ -143,6 +143,69 @@
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
             ></iframe>
+          </div> -->
+        </div>
+      </section>
+
+      <section class="portfolio-section" id="section-04" aria-label="Portfolio section 04">
+        <div class="section-inner">
+          <img class="animated-header" src="assets/first_banner.svg" alt="Section 04 animated header" style="position: absolute; top: 20px; left: 55%; transform: translate(-50%, -50%); z-index: 2; width: 120%; max-width: none; height: auto;">
+          <p class="section-description" style="margin-top: 5rem; margin-bottom: 0;">
+            Lead the software team (3-6 members) of a First Tech Challenge robotics team (Mars: Curiosity? 13474) over 5 years. 
+            Developed custom pathfinding algorithms, object recognition using Tensorflow and OpenCV, programmed autonomous and driver-assisted functions. 
+            Won several awards for innovative software design. Also worked extensively on the mechanical design in CAD, testing, and fabrication. 
+            Designed numerous modules (such as shooters, intakes, conveyor systems, lifts, and arms). 3D printed and CNC machined designs. 
+            Also mentored new team members and served as drive team coach.
+            Participated in regional and national competitions, consistently achieving high rankings and recognition for both software and mechanical innovations.
+          </p>     
+          <div class="container">
+            <a href="https://www.java.com/">
+            <img class= "favicon_bigger" src="assets/Java-Logo.png" alt="samp">
+            </a>
+            <a href="https://www.tensorflow.org/">
+              <img class="favicon_bigger" src="assets/Tensorflow_logo.svg.webp" alt="samp">
+            </a>
+            <a href="https://opencv.org/">
+              <img class="favicon_bigger" src="assets/OpenCV_logo_black_.webp" alt="samp">
+            </a>
+            <a href="https://www.autodesk.com/products/fusion-360/overview">
+              <img class="favicon_bigger" src="assets/Fusion360_Logo.svg.webp" alt="samp">
+            </a>
+            <a href="https://www.blender.org/">
+              <img class="favicon_bigger" src="assets/Blender_logo_no_text.svg.webp" alt="samp">
+            </a>
+          </div>     
+          <div class="container">
+            <img class="media-frame" src="assets/robotics_gui_2.png" alt = "samp" style="object-fit: contain;">
+            <img class="media-frame" src="assets/robot_1.gif" alt = "samp" style="object-fit: cover;">
+            <img class="media-frame" src="assets/robot_photo.jpg" alt = "samp" style="object-fit: cover;">
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio-section" id="section-05" aria-label="Portfolio section 05">
+        <div class="section-inner">
+          <img class="animated-header" src="assets/aeras_banner.svg" alt="Section 05 animated header" style="position: absolute; top: 20px; left: 47%; transform: translate(-50%, -72%); z-index: 2; width: 160%; max-width: none; height: auto;">
+          <p class="section-description" style="margin-top: 4rem; margin-bottom: 0;">
+            High school apprenticeship gaining hands-on electrical engineering experience building, repairing, and troubleshooting commerical powerwashing and photogrammetry drones. 
+            I disassembled and repaired the electronic speed controllers in several DJI dones, built a drone from scratch using Cube Orange flight controller, and calibrated PIDs and navigation systems using Ardupilot and Mission Planner. 
+            Gained a lot of experience soldering/desoldering, debugging circuits, and working with embedded systems.
+          </p>
+          <div class="container">
+            <a href="https://px4.io/">
+            <img class= "favicon_bigger" src="assets/PX4-Logo-Black.png" alt="samp">
+            </a>
+            <a href="https://ardupilot.org/">
+              <img class="favicon_bigger" src="assets/ArduPilot_logo.svg.webp" alt="samp">
+            </a>
+            <a href="https://ag.dji.com/">
+              <img class="favicon_bigger" src="assets/DJI_Innovations_logo.svg.webp" alt="samp">
+            </a>
+          </div>  
+          <div class="container">
+            <img class="media-frame" src="assets/drone.jpg" alt="samp" style="object-fit: cover;">
+            <img class="media-frame" src="assets/drone_big_inside.jpg" alt="samp" style="object-fit: cover;">
+            <!-- <video class="media-frame" src="assets/aeras_drone_flight.mp4" alt="samp" style="object-fit: cover;" controls></video> -->
           </div>
         </div>
       </section>
