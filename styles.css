@@ -116,6 +116,22 @@ body::before {
   backdrop-filter: blur(0.35rem);
 }
 
+.section-inner h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.contact-details {
+  display: grid;
+  gap: 1rem;
+  margin: 0;
+  text-align: center;
+}
+
+.contact-details a {
+  color: inherit;
+}
+
 .animated-header,
 .section-artwork {
   display: block;
